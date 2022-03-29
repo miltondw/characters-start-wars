@@ -1,0 +1,95 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body,
+main,
+html,
+footer,
+section {
+  background-image: url("/bg.webp") !important;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h3,
+h2,
+div {
+  color: #fff !important;
+}
+.ant-drawer-content {
+  background-image: url("/bg.jpg") !important;
+  background-size: contain !important;
+}
+.ant-drawer-header,
+.ant-card.ant-card-bordered.films-Card {
+  background: rgba(255, 255, 255, 0.438) !important;
+}
+.content-planets__tag {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+.content-list {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 3em;
+}
+.header-title {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.films-card {
+  width: 70%;
+  box-shadow: 0.5px 0.5px 5px 0px;
+}
+.ant-card.ant-card-bordered.films-Card {
+  margin: 1em !important;
+}
+.drawer {
+  width: 70%;
+}
+.drawer-closed {
+  position: absolute;
+  top: 0.5em;
+  background: #ff000080;
+  color: white;
+  right: 1em;
+  border: none;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: inset 0px -1px 9px 3px;
+  font-weight: bold;
+}
+.ant-layout-footer {
+  text-align: center;
+  margin-top: 1em;
+}
+@media screen and (min-width: 768px) {
+  .ant-layout-footer {
+    margin-top: 2em;
+  }
+  .header-title {
+    font-size: 3em;
+  }
+  .films-card {
+    width: 70%;
+  }
+  .drawer {
+    width: 70%;
+  }
+}
